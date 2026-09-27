@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 560" width="1600" height="560" role="img" aria-label="Session state machine, film variant">
+<rect width="1600" height="560" fill="#fffdf8"/>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#25354a"/></marker><marker id="g" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#287c68"/></marker></defs>
+<g font-family="Helvetica, Arial, sans-serif" fill="#25354a" font-size="26">
+<g stroke="#25354a" stroke-width="3.5" fill="#faf9f5"><ellipse cx="170" cy="290" rx="110" ry="52"/><ellipse cx="720" cy="90" rx="110" ry="52"/><ellipse cx="720" cy="290" rx="120" ry="52"/><ellipse cx="720" cy="490" rx="110" ry="52"/><ellipse cx="1330" cy="290" rx="130" ry="52"/></g>
+<g font-size="32" font-weight="700" text-anchor="middle"><text x="170" y="301">MENU</text><text x="720" y="101">PAUSED</text><text x="720" y="301">PLAYING</text><text x="720" y="501">DYING</text><text x="1330" y="301">COMPLETE</text></g>
+<g stroke="#25354a" stroke-width="3" fill="none" marker-end="url(#a)"><path d="M280 290H600"/><path d="M700 238V142"/><path d="M740 142V238"/><path d="M700 342V438"/><path d="M740 438V342"/><path d="M840 290H1200"/><path d="M1290 240Q1000 120 830 262"/><path d="M1280 340Q760 600 250 340"/><path d="M620 70Q380 60 230 240"/></g>
+<g fill="#5b6b7c"><text x="300" y="276">Enter · click</text><text x="480" y="200">Esc · P · focus lost</text><text x="755" y="200">Enter</text><text x="470" y="400">spike · fall · (malware)</text><text x="755" y="400">0.55 s → restart</text><text x="900" y="276">goal contact</text><text x="880" y="150">Enter → replay</text><text x="1010" y="470" font-size="26">M → menu</text><text x="330" y="70">M → menu</text></g>
+<g stroke="#287c68" stroke-width="3.5" stroke-dasharray="10 7" fill="none" marker-end="url(#g)"><path d="M630 255C520 200 520 380 625 325"/></g>
+<text x="290" y="380" fill="#287c68">station contact → ledger tick · stays PLAYING</text>
+<g stroke="#d24e42" stroke-width="3.5" stroke-dasharray="10 7" fill="none"><path d="M860 310H1190"/></g>
+<text x="870" y="345" fill="#d24e42">task open → “Loop not closed” · no transition</text>
+<text x="1140" y="540" font-size="24" fill="#5b6b7c">solid = session.gd · dashed = proposed</text>
+</g></svg>

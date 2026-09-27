@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="720" viewBox="0 0 1600 720" role="img" aria-labelledby="t d">
+<title id="t">Core loop at three scales — walker-jumpman-clawd 0.3.0-draft</title>
+<desc id="d">Micro loop (observed), meso task loop (proposed, dashed), macro session loop. References M-01..M-08, PX-01..PX-05.</desc>
+<rect width="1600" height="720" fill="#faf9f5"/>
+<g font-family="Helvetica, Arial, sans-serif" fill="#25354a">
+<text x="40" y="50" font-size="30" font-weight="700">Core loop · three scales</text>
+<text x="40" y="78" font-size="15" fill="#5b6b7c">solid = observed in code (First Steps) · dashed = proposed (this draft) · §3 of GDD.md</text>
+
+<!-- MICRO -->
+<text x="40" y="130" font-size="20" font-weight="700">MICRO · 2–10 s · PX-01, PX-02, PX-04</text>
+<g stroke="#25354a" stroke-width="2" fill="#fffdf7">
+<rect x="40" y="150" width="200" height="70" rx="8"/>
+<rect x="300" y="150" width="200" height="70" rx="8"/>
+<rect x="560" y="150" width="200" height="70" rx="8"/>
+<rect x="820" y="150" width="200" height="70" rx="8"/>
+</g>
+<g font-size="15" text-anchor="middle">
+<text x="140" y="180">read the landing</text><text x="140" y="200" fill="#5b6b7c">M-01 · P-01</text>
+<text x="400" y="180">choose takeoff / route</text><text x="400" y="200" fill="#5b6b7c">decision</text>
+<text x="660" y="180">move · jump</text><text x="660" y="200" fill="#5b6b7c">M-01 M-02</text>
+<text x="920" y="180">land · tick · or fail, named</text><text x="920" y="200" fill="#5b6b7c">M-03 M-04 · 0.55 s</text>
+</g>
+<g stroke="#25354a" stroke-width="2" fill="none" marker-end="url(#a)">
+<path d="M240 185 H300"/><path d="M500 185 H560"/><path d="M760 185 H820"/>
+<path d="M1020 185 H1080 V250 H140 V220"/>
+</g>
+<text x="1090" y="240" font-size="13" fill="#5b6b7c">next decision</text>
+
+<!-- MESO -->
+<text x="40" y="320" font-size="20" font-weight="700">MESO · one level · 1–4 min · PX-03, PX-05, PX-07</text>
+<g stroke="#25354a" stroke-width="2" fill="#fffdf7">
+<rect x="40" y="340" width="150" height="70" rx="8"/>
+</g>
+<g stroke="#287c68" stroke-width="2.5" stroke-dasharray="8 6" fill="#fffdf7">
+<rect x="250" y="340" width="150" height="70" rx="8"/>
+<rect x="460" y="340" width="150" height="70" rx="8"/>
+<rect x="670" y="340" width="150" height="70" rx="8"/>
+<rect x="880" y="340" width="190" height="70" rx="8"/>
+</g>
+<g stroke="#25354a" stroke-width="2" fill="#fffdf7">
+<rect x="1130" y="340" width="150" height="70" rx="8"/>
+</g>
+<g font-size="15" text-anchor="middle">
+<text x="115" y="370">enter level</text><text x="115" y="390" fill="#5b6b7c">spawn</text>
+<text x="325" y="370">TASK A</text><text x="325" y="390" fill="#5b6b7c">M-05 tick</text>
+<text x="535" y="370">TASK B</text><text x="535" y="390" fill="#5b6b7c">M-05 · fork M-07</text>
+<text x="745" y="370">TASK C</text><text x="745" y="390" fill="#5b6b7c">past malware M-06</text>
+<text x="975" y="370">gate opens</text><text x="975" y="390" fill="#5b6b7c">M-08 · all done</text>
+<text x="1205" y="370">flag · results</text><text x="1205" y="390" fill="#5b6b7c">tasks · time · retries</text>
+</g>
+<g stroke="#25354a" stroke-width="2" fill="none" marker-end="url(#a)">
+<path d="M190 375 H250"/><path d="M400 375 H460"/><path d="M610 375 H670"/><path d="M820 375 H880"/><path d="M1070 375 H1130"/>
+</g>
+<g stroke="#d24e42" stroke-width="2" stroke-dasharray="4 4" fill="none" marker-end="url(#r)">
+<path d="M745 410 V450 H535 V410"/>
+</g>
+<text x="640" y="470" font-size="13" fill="#d24e42" text-anchor="middle">malware contact: most recent task re-opens (Q-01)</text>
+<g stroke="#5b6b7c" stroke-width="2" stroke-dasharray="4 4" fill="none" marker-end="url(#g)">
+<path d="M535 340 V300 H470 V340"/>
+</g>
+<text x="440" y="292" font-size="13" fill="#5b6b7c">wrong branch loops back, costs time only</text>
+
+<!-- MACRO -->
+<text x="40" y="560" font-size="20" font-weight="700">MACRO · session · PX-05</text>
+<g stroke="#25354a" stroke-width="2" fill="#fffdf7">
+<rect x="40" y="580" width="200" height="70" rx="8"/>
+<rect x="300" y="580" width="260" height="70" rx="8"/>
+<rect x="620" y="580" width="220" height="70" rx="8"/>
+</g>
+<g font-size="15" text-anchor="middle">
+<text x="140" y="610">finish once</text><text x="140" y="630" fill="#5b6b7c">closure</text>
+<text x="430" y="610">replay: fewer retries, less time</text><text x="430" y="630" fill="#5b6b7c">self-chosen</text>
+<text x="730" y="610">stop with a result</text><text x="730" y="630" fill="#5b6b7c">no unlocks, no save</text>
+</g>
+<g stroke="#25354a" stroke-width="2" fill="none" marker-end="url(#a)"><path d="M240 615 H300"/><path d="M560 615 H620"/></g>
+<text x="900" y="605" font-size="14" fill="#5b6b7c">Loop honesty: strip art and theme → ordered checkpoints</text><text x="900" y="625" font-size="14" fill="#5b6b7c">plus a patrol that resets one. Still a game. Greybox decides.</text>
+</g>
+<defs>
+<marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#25354a"/></marker>
+<marker id="r" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#d24e42"/></marker>
+<marker id="g" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#5b6b7c"/></marker>
+</defs>
+</svg>

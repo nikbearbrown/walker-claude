@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="620" viewBox="0 0 1600 620" role="img" aria-labelledby="t d">
+<title id="t">Obstacle taxonomy — what an agent faces, and what each costs the player</title>
+<desc id="d">Three obstacle types: bug (observed, stationary, costs an attempt), malware (proposed, patrols, costs an attempt and re-opens a task), vague path (proposed, costs time only). M-03, M-06, M-07 with pillar rulings.</desc>
+<rect width="1600" height="620" fill="#faf9f5"/>
+<g font-family="Helvetica, Arial, sans-serif" fill="#25354a">
+<text x="40" y="50" font-size="30" font-weight="700">Obstacle taxonomy · what it is for the agent · what it costs the player</text>
+<text x="40" y="78" font-size="15" fill="#5b6b7c">columns are the three obstacle classes from Bear's concept; rows are the design contract each must keep</text>
+<g font-size="14" fill="#5b6b7c">
+<text x="40" y="150">agent metaphor</text><text x="40" y="220">mechanic</text><text x="40" y="290">moves?</text><text x="40" y="360">what it costs</text><text x="40" y="430">what it may NOT do</text><text x="40" y="500">pillar ruling</text><text x="40" y="570">status</text>
+</g>
+<!-- BUG -->
+<g stroke="#25354a" stroke-width="2.5" fill="#fffdf7"><rect x="260" y="100" width="400" height="500" rx="10"/></g>
+<g fill="#d24e42"><path d="M420 118 L432 98 L444 118 Z M444 118 L456 98 L468 118 Z M468 118 L480 98 L492 118 Z"/></g>
+<g font-size="17" text-anchor="middle">
+<text x="460" y="150" font-weight="700">BUG · M-03</text>
+<text x="460" y="220">stationary spike triggers, 3 exact triangles</text>
+<text x="460" y="290">no</text>
+<text x="460" y="360">the attempt · 0.55 s · "Hit a bug"</text>
+<text x="460" y="430">have a collider bigger than its silhouette</text>
+<text x="460" y="500">P-01: always visible before approach</text>
+<text x="460" y="570" fill="#287c68" font-weight="700">OBSERVED · session.gd:83-89</text>
+</g>
+<!-- MALWARE -->
+<g stroke="#d24e42" stroke-width="2.5" stroke-dasharray="8 6" fill="#fffdf7"><rect x="700" y="100" width="400" height="500" rx="10"/></g>
+<circle cx="900" cy="108" r="12" fill="#fff0ee" stroke="#d24e42" stroke-width="2" stroke-dasharray="4 3"/>
+<g font-size="17" text-anchor="middle">
+<text x="900" y="150" font-weight="700">MALWARE · M-06</text>
+<text x="900" y="220">patrol on a fixed segment, constant speed</text>
+<text x="900" y="290">yes, back and forth, predictable</text>
+<text x="900" y="360">the attempt AND re-opens the last task</text>
+<text x="900" y="430">undo more than one task · block the only route</text>
+<text x="900" y="500">P-02 PRIMARY: legible, cheap, re-reachable</text>
+<text x="900" y="570" fill="#d24e42" font-weight="700">PROPOSED · Q-01 decides</text>
+</g>
+<!-- VAGUE PATH -->
+<g stroke="#5b6b7c" stroke-width="2.5" stroke-dasharray="8 6" fill="#fffdf7"><rect x="1140" y="100" width="400" height="500" rx="10"/></g>
+<g stroke="#5b6b7c" stroke-width="2" fill="#fffdf7"><rect x="1325" y="94" width="30" height="16" rx="2"/><path d="M1340 110 V124"/></g>
+<g font-size="17" text-anchor="middle">
+<text x="1340" y="150" font-weight="700">VAGUE PATH · M-07</text>
+<text x="1340" y="220">a fork with a true-but-incomplete sign</text>
+<text x="1340" y="290">no</text>
+<text x="1340" y="360">time only · wrong branch loops back safely</text>
+<text x="1340" y="430">hide a landing · contain a hazard · lie</text>
+<text x="1340" y="500">P-01 PRIMARY: hides which way, never where</text>
+<text x="1340" y="570" fill="#5b6b7c" font-weight="700">PROPOSED · Q-03 open</text>
+</g>
+</g>
+</svg>

@@ -1,0 +1,185 @@
+{
+ "method": "known narration words aligned by faster-whisper (align.py); unmatched phrases spaced evenly and reported",
+ "rows": [
+  {
+   "beat": "B04",
+   "phrase": "Bear's starter game",
+   "at": 4.03,
+   "how": "matched"
+  },
+  {
+   "beat": "B04",
+   "phrase": "twenty optional cherries",
+   "at": 5.13,
+   "how": "matched"
+  },
+  {
+   "beat": "B04",
+   "phrase": "Without that line",
+   "at": 14.67,
+   "how": "matched"
+  },
+  {
+   "beat": "B06",
+   "phrase": "risk management",
+   "at": 1.57,
+   "how": "matched"
+  },
+  {
+   "beat": "B06",
+   "phrase": "before core development",
+   "at": 3.73,
+   "how": "matched"
+  },
+  {
+   "beat": "B06",
+   "phrase": "T-22: task A",
+   "at": 13.03,
+   "how": "matched"
+  },
+  {
+   "beat": "B06",
+   "phrase": "A row today",
+   "at": 17.27,
+   "how": "matched"
+  },
+  {
+   "beat": "B09",
+   "phrase": "Read the landing",
+   "at": 1.0,
+   "how": "matched"
+  },
+  {
+   "beat": "B09",
+   "phrase": "Earn another try",
+   "at": 1.83,
+   "how": "matched"
+  },
+  {
+   "beat": "B09",
+   "phrase": "Close the loop",
+   "at": 2.77,
+   "how": "matched"
+  },
+  {
+   "beat": "B09",
+   "phrase": "Small, complete game",
+   "at": 3.43,
+   "how": "matched"
+  },
+  {
+   "beat": "B10",
+   "phrase": "Clawd's micro loop",
+   "at": 6.73,
+   "how": "matched"
+  },
+  {
+   "beat": "B10",
+   "phrase": "The meso loop",
+   "at": 11.4,
+   "how": "matched"
+  },
+  {
+   "beat": "B10",
+   "phrase": "Solid is code",
+   "at": 14.77,
+   "how": "matched"
+  },
+  {
+   "beat": "B12",
+   "phrase": "reprioritize twice",
+   "at": 12.97,
+   "how": "matched"
+  },
+  {
+   "beat": "B12",
+   "phrase": "two options",
+   "at": 16.57,
+   "how": "matched"
+  },
+  {
+   "beat": "B12",
+   "phrase": "argues is doing",
+   "at": 19.17,
+   "how": "matched"
+  },
+  {
+   "beat": "B13",
+   "phrase": "no art files",
+   "at": 8.77,
+   "how": "matched"
+  },
+  {
+   "beat": "B13",
+   "phrase": "no cutscenes",
+   "at": 11.47,
+   "how": "matched"
+  },
+  {
+   "beat": "B13",
+   "phrase": "only Clawd",
+   "at": 13.47,
+   "how": "matched"
+  },
+  {
+   "beat": "B17",
+   "phrase": "five states",
+   "at": 5.1,
+   "how": "matched"
+  },
+  {
+   "beat": "B17",
+   "phrase": "ledger tick",
+   "at": 9.77,
+   "how": "matched"
+  },
+  {
+   "beat": "B17",
+   "phrase": "refuses to transition",
+   "at": 11.8,
+   "how": "matched"
+  },
+  {
+   "beat": "B22",
+   "phrase": "Observed, with a file",
+   "at": 5.87,
+   "how": "matched"
+  },
+  {
+   "beat": "B22",
+   "phrase": "Inferred",
+   "at": 7.63,
+   "how": "matched"
+  },
+  {
+   "beat": "B22",
+   "phrase": "tested First Steps",
+   "at": 11.7,
+   "how": "matched"
+  },
+  {
+   "beat": "B22",
+   "phrase": "game that is proposed",
+   "at": 13.3,
+   "how": "matched"
+  },
+  {
+   "beat": "B23",
+   "phrase": "is a checklist",
+   "at": 7.8,
+   "how": "matched"
+  },
+  {
+   "beat": "B23",
+   "phrase": "malware undo is the whole",
+   "at": 10.1,
+   "how": "matched"
+  },
+  {
+   "beat": "B23",
+   "phrase": "the first fix",
+   "at": 12.77,
+   "how": "matched"
+  }
+ ]
+}

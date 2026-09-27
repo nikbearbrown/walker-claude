@@ -1,0 +1,33 @@
+{
+  "status": "ready",
+  "output": "/Users/bear/Documents/CoWork/bear-textbooks/books/walker-jumpman-clawd/youtube/claude-liam-walker-jumpman-clawd-gdd-deck/exports/landscape/claude-liam-walker-jumpman-clawd-gdd-deck.mp4",
+  "sha256": "119118b273d7ec10c9880a1f2746dbc6db0a15e5bac99a4634e66a7f28978273",
+  "duration_s": 226.9,
+  "input_sha256": {
+    "/Users/bear/Documents/CoWork/bear-textbooks/books/walker-jumpman-clawd/youtube/claude-liam-walker-jumpman-clawd-gdd-deck/audio/B00-lim.wav": "aa7a4306e88d7a9494653b70474723969d0f33c2ca6d705de5e2db99e77ab5bd",
+    "/Users/bear/Documents/CoWork/bear-textbooks/books/walker-jumpman-clawd/youtube/claude-liam-walker-jumpman-clawd-gdd-deck/audio/B01-lim.wav": "e51a7243ac20c0857076a73783cce099f94a0db061da6cf17d9bc78c1e990410",
+    "/Users/bear/Documents/CoWork/bear-textbooks/books/walker-jumpman-clawd/youtube/claude-liam-walker-jumpman-clawd-gdd-deck/audio/B02-lim.wav": "64ae93e31a148b44ede08696b0a19740188de8e48aea07e54e6c6f21b079e0d4",
+    "/Users/bear/Documents/CoWork/bear-textbooks/books/walker-jumpman-clawd/youtube/claude-liam-walker-jumpman-clawd-gdd-deck/audio/B03-lim.wav": "055fca3faf4e7a21773f61a4e6b631c7eead191fea8e2cc52beb0d2f9324f356",
+    "/Users/bear/Documents/CoWork/bear-textbooks/books/walker-jumpman-clawd/youtube/claude-liam-walker-jumpman-clawd-gdd-deck/audio/B04-lim.wav": "d270540919beeb8e283a15ce08b01f5bd8bbbead43697b15f6a201690d4e8559",
+    "/Users/bear/Documents/CoWork/bear-textbooks/books/walker-jumpman-clawd/youtube/claude-liam-walker-jumpman-clawd-gdd-deck/audio/B05-lim.wav": "c5048b39dc86d6eac8d0eb09486e7eedfdb66a5cdc1794afa7e594f726fce0a7",
+    "/Users/bear/Documents/CoWork/bear-textbooks/books/walker-jumpman-clawd/youtube/claude-liam-walker-jumpman-clawd-gdd-deck/audio/B06-lim.wav": "a2bec1daaeb6ee6d6e8a8ed3878385addfe0f0465829da92127468fd43bb2f98",
+    "/Users/bear/Documents/CoWork/bear-textbooks/books/walker-jumpman-clawd/youtube/claude-liam-walker-jumpman-clawd-gdd-deck/audio/B07-lim.wav": "931195a994b62c8dc0239202f226806ca01f68c3c3cf6ea8d9269a4236636007",
+    "/Users/bear/Documents/CoWork/bear-textbooks/books/walker-jumpman-clawd/youtube/claude-liam-walker-jumpman-clawd-gdd-deck/audio/B08-lim.wav": "919aa4f38274a6f97bbce73bee3a8c25794b954a3493988b6a873b8b6a2fd558",
+    "/Users/bear/Documents/CoWork/bear-textbooks/books/walker-jumpman-clawd/youtube/claude-liam-walker-jumpman-clawd-gdd-deck/audio/B09-lim.wav": "7af4c6b4343efa30cb4145443ecd9244e95e6c9c59f0a1e00beaf9e0de11e3a1",
+    "/Users/bear/Documents/CoWork/bear-textbooks/books/walker-jumpman-clawd/youtube/claude-liam-walker-jumpman-clawd-gdd-deck/audio/B10-lim.wav": "53db0282cef2ff4ce07cc6c67647904749ebb591405a71a8c3fb54613cb635b3",
+    "/Users/bear/Documents/CoWork/bear-textbooks/books/walker-jumpman-clawd/youtube/claude-liam-walker-jumpman-clawd-gdd-deck/audio/B11-lim.wav": "d724aee4379599bd9df130c5d4016e0df3b3f5ca3289f77a09969b8655159613",
+    "/Users/bear/Documents/CoWork/bear-textbooks/books/walker-jumpman-clawd/youtube/claude-liam-walker-jumpman-clawd-gdd-deck/media/B00.mp4": "bbfbd9a145f3e004ac7682e2c4500bc0d1fc1200c68b0ca9b8a2db9dcc7d9d7c",
+    "/Users/bear/Documents/CoWork/bear-textbooks/books/walker-jumpman-clawd/youtube/claude-liam-walker-jumpman-clawd-gdd-deck/media/B01.mp4": "5bc39c1430f9201b748ad714a4996996d872b8ba50fb740e042ce61b1c36d7b6",
+    "/Users/bear/Documents/CoWork/bear-textbooks/books/walker-jumpman-clawd/youtube/claude-liam-walker-jumpman-clawd-gdd-deck/media/B02.mp4": "758dd50b21c814225db0325ce20c758774f8931c2dc855838e68f079405235d5",
+    "/Users/bear/Documents/CoWork/bear-textbooks/books/walker-jumpman-clawd/youtube/claude-liam-walker-jumpman-clawd-gdd-deck/media/B03.mp4": "0fa5cdfe63152badc96d105296c5ff0a5d368a5f5fc3bcbec786d5a6417c2e64",
+    "/Users/bear/Documents/CoWork/bear-textbooks/books/walker-jumpman-clawd/youtube/claude-liam-walker-jumpman-clawd-gdd-deck/media/B04.mp4": "5ff7d97294bce6d857dec127bb7ece91cce98e984b75feb8da5c53fc9497355b",
+    "/Users/bear/Documents/CoWork/bear-textbooks/books/walker-jumpman-clawd/youtube/claude-liam-walker-jumpman-clawd-gdd-deck/media/B05.mp4": "2a0b95fc71366960fa72fb157611701a97d4d41d729c2977c3c63e28d959a415",
+    "/Users/bear/Documents/CoWork/bear-textbooks/books/walker-jumpman-clawd/youtube/claude-liam-walker-jumpman-clawd-gdd-deck/media/B06.mp4": "5c1b240f00b6ea1ac59e4f5dc76c0971d8a32f8110bdca0d2a3158c38d4708b7",
+    "/Users/bear/Documents/CoWork/bear-textbooks/books/walker-jumpman-clawd/youtube/claude-liam-walker-jumpman-clawd-gdd-deck/media/B07.mp4": "86917d6b8299ae2213b47865e2aaaeb29abb86370983ad9fdabe30aa32c286a3",
+    "/Users/bear/Documents/CoWork/bear-textbooks/books/walker-jumpman-clawd/youtube/claude-liam-walker-jumpman-clawd-gdd-deck/media/B08.mp4": "958901150038e186c26ec3118c9e70569c5558b1b10f3ffbf9ca3ce0e974de72",
+    "/Users/bear/Documents/CoWork/bear-textbooks/books/walker-jumpman-clawd/youtube/claude-liam-walker-jumpman-clawd-gdd-deck/media/B09.mp4": "4b194a31cb62cf6ccf8e2d5d63f779c18d7161cb7d2b7b43e4d0fe26696625db",
+    "/Users/bear/Documents/CoWork/bear-textbooks/books/walker-jumpman-clawd/youtube/claude-liam-walker-jumpman-clawd-gdd-deck/media/B10.mp4": "c1cc0268b013af074b0c4ce00ec400ecaa5851a3bf72dcf12d90cb868e4b10e9",
+    "/Users/bear/Documents/CoWork/bear-textbooks/books/walker-jumpman-clawd/youtube/claude-liam-walker-jumpman-clawd-gdd-deck/media/B11.mp4": "c2fab87d9224a56bd43d3dc97109ce0454c1ba5d36f277602fd385ea7d76926e"
+  },
+  "at": "2026-09-18T18:41:28.892544+00:00"
+}

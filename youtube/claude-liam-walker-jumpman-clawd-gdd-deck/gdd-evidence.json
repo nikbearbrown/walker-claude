@@ -1,0 +1,140 @@
+{
+ "schema_version": 1,
+ "note": "Structural evidence for the godot-gdd checker. Design status labels are per beat; human approval is not implied by any record here.",
+ "document": {
+  "path": "design/GAME-BRIEF.md",
+  "sha256": "c69d52c195366238565158c23263ffc9b83553f0420349a330e7e5f32cdd7f03",
+  "captured_at": "2026-09-18T17:02:32.925177+00:00",
+  "version_note": "design/GDD.md 0.3.0-draft revision 1, silent Zelda draft, no gate signed"
+ },
+ "sections": [
+  {
+   "heading": "What exists today `[OBSERVED]`",
+   "beat_ids": [
+    "B02"
+   ]
+  },
+  {
+   "heading": "What this draft proposes `[ASSUMPTION]` unless tagged otherwise",
+   "beat_ids": [
+    "B03",
+    "B04",
+    "B05",
+    "B06"
+   ]
+  },
+  {
+   "heading": "The biggest unresolved question",
+   "beat_ids": [
+    "B07",
+    "B08"
+   ]
+  }
+ ],
+ "excerpts": [
+  {
+   "beat_id": "B03",
+   "start_line": 15,
+   "end_line": 15,
+   "text": "- Every level is a loop of ordered tasks. Touching a task station completes it. The finish is a soft gate until every task is done."
+  },
+  {
+   "beat_id": "B05",
+   "start_line": 17,
+   "end_line": 17,
+   "text": "- The direct route through a level is always visible. Vague paths hide *which way*, never *where you land*."
+  },
+  {
+   "beat_id": "B07",
+   "start_line": 21,
+   "end_line": 21,
+   "text": "Whether \"malware undoes a task\" reads as an interesting setback or as a punishment that breaks the retry promise. It is decided by a human playing a greybox, not by this document. See `decisions.md` Q-01."
+  },
+  {
+   "beat_id": "B08",
+   "start_line": 7,
+   "end_line": 7,
+   "text": "**This game is** a short 2D platformer **for** keyboard players who know what a coding agent is, or are about to learn, **delivering** the feeling of finishing a loop of small tasks despite hostile and ambiguous conditions **through** one fixed-height jump, ordered task stations, and instant retry. **Space between** the walker-jumpman First Steps slice and a Celeste-style readable-death platformer with a one-screen loop of goals. **Succeeds if the player feels** \"I was the agent. I got the job done, and I can say exactly what broke and why.\""
+  }
+ ],
+ "evidence": [
+  {
+   "path": "evidence/GAME-BRIEF.md",
+   "sha256": "c69d52c195366238565158c23263ffc9b83553f0420349a330e7e5f32cdd7f03",
+   "method": "file copy + SHA-256 of design/GAME-BRIEF.md",
+   "supports": "all excerpts and section coverage"
+  },
+  {
+   "path": "evidence/DECK.html",
+   "sha256": "eee0dfadf51d40c78e1d90f2b3bd77b0e6edd8bf75f78c98437c07056f70c76d",
+   "method": "copy of the 14-slide deck this film follows",
+   "supports": "slide order and claims"
+  },
+  {
+   "path": "evidence/game.png",
+   "sha256": "6479953516afbf8e5cb65d7db1c81b3a2c0a082e876abaaa5c736a655061002c",
+   "method": "copy of evidence/clawd/game.png, an actual Godot 4.7.2 viewport capture recorded by the Clawd iteration (see CLAWD-STATUS.json)",
+   "supports": "the only shipped game today: First Steps with Clawd (B02/B03 image)"
+  },
+  {
+   "path": "evidence/diagrams/agentic-loop.svg",
+   "sha256": "678b8817e059709eba30ef9966948cb36511d4514110e8acf4a30137978e2f98",
+   "method": "design diagram drawn 2026-09-18 from GDD \u00a73; observed elements solid, proposed dashed",
+   "supports": "core loop at three scales"
+  },
+  {
+   "path": "evidence/diagrams/session-state.svg",
+   "sha256": "0ae99b187f8c0355fd522b3851dcfad638cb12f416a8acc531256da882641838",
+   "method": "design diagram drawn from session.gd:13 enum and transitions; proposed dashed",
+   "supports": "state machine S-01 and proposed ledger/gate"
+  },
+  {
+   "path": "evidence/diagrams/level-01-task-flow.svg",
+   "sha256": "bfb1d0b5d69c343b7ab361aa3c4e068f536f0ec1fdac17a3e90b2754dfe3eb42",
+   "method": "design diagram over first_steps.json geometry at 2x; proposed overlays dashed, not simulated",
+   "supports": "level 1 proposal against real geometry"
+  },
+  {
+   "path": "evidence/diagrams/obstacle-taxonomy.svg",
+   "sha256": "02737222d2b99b2fa5be8b3c0f7cdfba9128cdd1b6912d8217a38e8b7711a4e9",
+   "method": "design diagram from GDD \u00a75 M-03/M-06/M-07 with pillar rulings",
+   "supports": "obstacle classes and what each may not do"
+  },
+  {
+   "path": "evidence/diagrams/feature-map.svg",
+   "sha256": "bada47d4547032e73fb2d1a1b31adc2146a13d14b64d8b40af3838af70e1e2e4",
+   "method": "design diagram from GDD \u00a711 feature table; CORE 8/15",
+   "supports": "feature dependencies and CORE percentage"
+  },
+  {
+   "path": "evidence/CLAWD-STATUS.json",
+   "sha256": "7aa7265dead33523869f82033d2197d05a5c242e6a150be92a92a6b0a45e81a2",
+   "method": "copy of the iteration status record",
+   "supports": "test counts 25/9/162 and human_playtest pending"
+  },
+  {
+   "path": "evidence/diagrams/film/agentic-loop.svg",
+   "sha256": "e2f40b27751a1b33dc7d90ae0610d6905feb9578f47ca6afa03ab51912b5d3cf",
+   "method": "large-type film variant of design/diagrams/agentic-loop.svg",
+   "supports": "the figure shown on screen for the agentic-loop beat"
+  },
+  {
+   "path": "evidence/diagrams/film/level-01-task-flow.svg",
+   "sha256": "781c3e6165f906444c64ba03d475f7b7560235b31226e501e9e6461b6da52bf2",
+   "method": "large-type film variant of design/diagrams/level-01-task-flow.svg",
+   "supports": "the figure shown on screen for the level-01-task-flow beat"
+  },
+  {
+   "path": "evidence/diagrams/film/obstacle-taxonomy.svg",
+   "sha256": "0a77d412122a88b0faf879508dbb40e0cf54003095b5d9d08abdd223f43f6466",
+   "method": "large-type film variant of design/diagrams/obstacle-taxonomy.svg",
+   "supports": "the figure shown on screen for the obstacle-taxonomy beat"
+  },
+  {
+   "path": "evidence/diagrams/film/feature-map.svg",
+   "sha256": "aa5368afc0c336340b037d78423b004657bc0455468f9bc9b0d65c34cd9db043",
+   "method": "large-type film variant of design/diagrams/feature-map.svg",
+   "supports": "the figure shown on screen for the feature-map beat"
+  }
+ ]
+}

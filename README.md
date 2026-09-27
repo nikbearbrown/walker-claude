@@ -23,6 +23,10 @@ Gameplay chooses idle, walk, run, a held airborne jump pose, error on failure,
 and celebrate at completion. Pause freezes the pose. The wide art extends beyond
 the original 18 × 28 collision box; that tradeoff needs human inspection.
 
+**Design films (2026-09-18, Liam, local 4K masters, not published):** [the GDD walkthrough](youtube/claude-liam-walker-jumpman-clawd-gdd/) (8:01) and [the pitch](youtube/claude-liam-walker-jumpman-clawd-gdd-deck/) (3:47), built with the brutalist.art `godot-gdd walker` skill; masters under each reel's `exports/landscape/`.
+
+**Design package (2026-09-18, silent Zelda draft, unreviewed):** [GDD 0.3.0-draft](design/GDD.md) · [brief](design/GAME-BRIEF.md) · [implementation map](design/IMPLEMENTATION-MAP.md) · [open questions](design/decisions.md) · [slides](design/DECK.html). Task stations, malware, and vague paths are proposed there, not built.
+
 [Change brief](CHANGE-BRIEF.md) · [Frictional effort log](FRICTIONAL.md) ·
 [Sources and human/AI contributions](SOURCES.md)
 

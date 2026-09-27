@@ -1,0 +1,20 @@
+{
+  "game": "walker-jumpman-clawd",
+  "mode": "recovered",
+  "revision": 1,
+  "design_version": "0.3.0-draft",
+  "date": "2026-09-18",
+  "recovered_from": {"commit": "382f2ba", "engine_detected": "Godot 4.7.2 GL Compatibility", "pass": "reverse + draft overlay, silent"},
+  "engine": {"name": "godot", "version": "4.7.2.stable", "renderer": "gl_compatibility"},
+  "gates": {
+    "vision":  {"signed_by": null, "date": null, "revision": null},
+    "systems": {"signed_by": null, "date": null, "revision": null},
+    "world":   {"signed_by": null, "date": null, "revision": null},
+    "scope":   {"signed_by": null, "date": null, "revision": null}
+  },
+  "core_percentage": {"core": 8, "total": 15, "percent": 53, "over_limit": true, "decision": "Q-04 open"},
+  "edu_track": false,
+  "human_playtests": 0,
+  "supersedes": "../GDD.md 0.2.0 (starter, historical)",
+  "notes": "Silent draft. Nothing here is approved. Gates are signed by humans only."
+}

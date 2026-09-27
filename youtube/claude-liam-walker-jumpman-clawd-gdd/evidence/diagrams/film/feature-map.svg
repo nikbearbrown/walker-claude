@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 560" width="1600" height="560" role="img" aria-label="Feature map, film variant">
+<rect width="1600" height="560" fill="#fffdf8"/>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#25354a"/></marker></defs>
+<g font-family="Helvetica, Arial, sans-serif" fill="#25354a" font-size="26">
+<text x="30" y="40" font-size="28" font-weight="700" fill="#287c68">CORE · done</text>
+<g stroke="#287c68" stroke-width="3.5" fill="#faf9f5"><rect x="30" y="60" width="300" height="60" rx="8"/><rect x="30" y="140" width="300" height="60" rx="8"/><rect x="30" y="220" width="300" height="60" rx="8"/><rect x="30" y="300" width="300" height="60" rx="8"/><rect x="30" y="380" width="300" height="60" rx="8"/></g>
+<g text-anchor="middle"><text x="180" y="98">F-01 movement</text><text x="180" y="178">F-02 one jump</text><text x="180" y="258">F-03 bugs · fall · retry</text><text x="180" y="338">F-04 session · finish</text><text x="180" y="418">F-08 pause · keys</text></g>
+<text x="420" y="40" font-size="28" font-weight="700" fill="#287c68">CORE · proposed</text>
+<g stroke="#287c68" stroke-width="3.5" stroke-dasharray="10 7" fill="#faf9f5"><rect x="420" y="60" width="330" height="60" rx="8"/><rect x="420" y="140" width="330" height="60" rx="8"/><rect x="420" y="220" width="330" height="60" rx="8"/></g>
+<g text-anchor="middle"><text x="585" y="98">F-05 task stations</text><text x="585" y="178">F-06 finish soft gate</text><text x="585" y="258">F-07 level 1 · 3 tasks</text></g>
+<text x="840" y="40" font-size="28" font-weight="700">IMPORTANT · proposed</text>
+<g stroke="#25354a" stroke-width="3" stroke-dasharray="10 7" fill="#faf9f5"><rect x="840" y="60" width="330" height="60" rx="8"/><rect x="840" y="140" width="330" height="60" rx="8"/><rect x="840" y="220" width="330" height="60" rx="8"/></g>
+<g text-anchor="middle"><text x="1005" y="98">F-09 malware patrol</text><text x="1005" y="178">F-10 vague fork</text><text x="1005" y="258">F-11 tested export</text></g>
+<text x="1260" y="40" font-size="28" font-weight="700" fill="#5b6b7c">NICE · EXPERIMENTAL</text>
+<g stroke="#9aa5b1" stroke-width="3" stroke-dasharray="10 7" fill="#faf9f5"><rect x="1260" y="60" width="310" height="60" rx="8"/><rect x="1260" y="140" width="310" height="60" rx="8"/><rect x="1260" y="220" width="310" height="60" rx="8"/><rect x="1260" y="300" width="310" height="60" rx="8"/></g>
+<g text-anchor="middle" fill="#5b6b7c"><text x="1415" y="98">F-12 context poses</text><text x="1415" y="178">F-13 gallery · not play</text><text x="1415" y="258">F-14 sound</text><text x="1415" y="338">F-15 assisted profile</text></g>
+<g stroke="#25354a" stroke-width="3" fill="none" marker-end="url(#a)"><path d="M330 330Q380 330 420 100"/><path d="M750 90H840"/><path d="M750 170H840"/></g>
+<text x="30" y="500" font-size="40" font-weight="700" fill="#287c68">8 of 15 CORE = 53%</text>
+<text x="420" y="500" font-size="26">over the 40% line · demote F-08 → 47% · fold F-06 → 43% · still over</text>
+<text x="420" y="538" font-size="26" fill="#5b6b7c">Option 1: reduced MVP (no gate, malware, fork) · Option 2: keep CORE, extend the timeline · Q-04</text>
+</g></svg>

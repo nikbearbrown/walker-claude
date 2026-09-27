@@ -1,0 +1,131 @@
+{
+ "method": "known narration words aligned by faster-whisper (align.py); unmatched phrases spaced evenly and reported",
+ "rows": [
+  {
+   "beat": "B02",
+   "phrase": "Move, one jump",
+   "at": 8.83,
+   "how": "matched"
+  },
+  {
+   "beat": "B02",
+   "phrase": "Twenty-five mechanics",
+   "at": 10.7,
+   "how": "matched"
+  },
+  {
+   "beat": "B03",
+   "phrase": "read the landing",
+   "at": 7.77,
+   "how": "matched"
+  },
+  {
+   "beat": "B03",
+   "phrase": "earn another try",
+   "at": 8.4,
+   "how": "matched"
+  },
+  {
+   "beat": "B03",
+   "phrase": "close the loop, and",
+   "at": 9.67,
+   "how": "matched"
+  },
+  {
+   "beat": "B03",
+   "phrase": "small complete game",
+   "at": 10.43,
+   "how": "matched"
+  },
+  {
+   "beat": "B04",
+   "phrase": "Micro is what",
+   "at": 1.23,
+   "how": "matched"
+  },
+  {
+   "beat": "B04",
+   "phrase": "Meso is the pitch",
+   "at": 5.0,
+   "how": "matched"
+  },
+  {
+   "beat": "B04",
+   "phrase": "Macro is one session",
+   "at": 12.77,
+   "how": "matched"
+  },
+  {
+   "beat": "B05",
+   "phrase": "Bug: the spikes",
+   "at": 1.87,
+   "how": "matched"
+  },
+  {
+   "beat": "B05",
+   "phrase": "Malware: a patrol",
+   "at": 5.2,
+   "how": "matched"
+  },
+  {
+   "beat": "B05",
+   "phrase": "Vague path: a sign",
+   "at": 8.33,
+   "how": "matched"
+  },
+  {
+   "beat": "B06",
+   "phrase": "Solid is first",
+   "at": 2.43,
+   "how": "matched"
+  },
+  {
+   "beat": "B06",
+   "phrase": "Dashed is the proposal",
+   "at": 6.03,
+   "how": "matched"
+  },
+  {
+   "beat": "B06",
+   "phrase": "no room for a real fork",
+   "at": 17.4,
+   "how": "matched"
+  },
+  {
+   "beat": "B07",
+   "phrase": "A reduced MVP",
+   "at": 11.57,
+   "how": "matched"
+  },
+  {
+   "beat": "B07",
+   "phrase": "keep the core list",
+   "at": 15.13,
+   "how": "matched"
+  },
+  {
+   "beat": "B08",
+   "phrase": "can kill it",
+   "at": 2.53,
+   "how": "matched"
+  },
+  {
+   "beat": "B08",
+   "phrase": "already true",
+   "at": 5.6,
+   "how": "matched"
+  },
+  {
+   "beat": "B08",
+   "phrase": "gate the code",
+   "at": 10.73,
+   "how": "matched"
+  },
+  {
+   "beat": "B08",
+   "phrase": "first fix",
+   "at": 14.87,
+   "how": "matched"
+  }
+ ]
+}

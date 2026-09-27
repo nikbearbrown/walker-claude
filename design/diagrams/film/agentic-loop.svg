@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 560" width="1600" height="560" role="img" aria-label="Core loop at three scales, film variant">
+<rect width="1600" height="560" fill="#fffdf8"/>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#25354a"/></marker><marker id="r" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#d24e42"/></marker></defs>
+<g font-family="Helvetica, Arial, sans-serif" fill="#25354a" font-size="28">
+<text x="30" y="52" font-size="30" font-weight="700">MICRO · 2–10 s · observed</text>
+<g stroke="#25354a" stroke-width="3" fill="#faf9f5"><rect x="30" y="70" width="330" height="70" rx="10"/><rect x="430" y="70" width="330" height="70" rx="10"/><rect x="830" y="70" width="330" height="70" rx="10"/><rect x="1230" y="70" width="340" height="70" rx="10"/></g>
+<g text-anchor="middle"><text x="195" y="114">read the landing</text><text x="595" y="114">choose · commit</text><text x="995" y="114">move · jump</text><text x="1400" y="114">land · tick · fail, named</text></g>
+<g stroke="#25354a" stroke-width="3" fill="none" marker-end="url(#a)"><path d="M360 105H430"/><path d="M760 105H830"/><path d="M1160 105H1230"/><path d="M1400 140V160H195V140"/></g>
+<text x="30" y="232" font-size="30" font-weight="700" fill="#287c68">MESO · one level · proposed</text>
+<g stroke="#25354a" stroke-width="3" fill="#faf9f5"><rect x="30" y="250" width="200" height="70" rx="10"/></g>
+<g stroke="#287c68" stroke-width="3.5" stroke-dasharray="10 7" fill="#faf9f5"><rect x="290" y="250" width="200" height="70" rx="10"/><rect x="550" y="250" width="200" height="70" rx="10"/><rect x="810" y="250" width="200" height="70" rx="10"/><rect x="1070" y="250" width="230" height="70" rx="10"/></g>
+<g stroke="#25354a" stroke-width="3" fill="#faf9f5"><rect x="1360" y="250" width="210" height="70" rx="10"/></g>
+<g text-anchor="middle"><text x="130" y="294">enter</text><text x="390" y="294">TASK A</text><text x="650" y="294">TASK B</text><text x="910" y="294">TASK C</text><text x="1185" y="294">gate opens</text><text x="1465" y="294">flag · results</text></g>
+<g stroke="#25354a" stroke-width="3" fill="none" marker-end="url(#a)"><path d="M230 285H290"/><path d="M490 285H550"/><path d="M750 285H810"/><path d="M1010 285H1070"/><path d="M1300 285H1360"/></g>
+<g stroke="#d24e42" stroke-width="3" stroke-dasharray="6 5" fill="none" marker-end="url(#r)"><path d="M910 320V365H650V320"/></g>
+<text x="780" y="395" text-anchor="middle" fill="#d24e42" font-size="26">malware contact re-opens the last task (Q-01)</text>
+<g stroke="#5b6b7c" stroke-width="3" stroke-dasharray="6 5" fill="none" marker-end="url(#a)"><path d="M650 250V215H560V250"/></g>
+<text x="500" y="206" fill="#5b6b7c" font-size="26">wrong branch loops back · time only</text>
+<text x="30" y="458" font-size="30" font-weight="700">MACRO · session · observed</text>
+<g stroke="#25354a" stroke-width="3" fill="#faf9f5"><rect x="30" y="476" width="300" height="66" rx="10"/><rect x="400" y="476" width="420" height="66" rx="10"/><rect x="890" y="476" width="320" height="66" rx="10"/></g>
+<g text-anchor="middle"><text x="180" y="518">finish once</text><text x="610" y="518">replay: fewer retries, less time</text><text x="1050" y="518">stop with a result</text></g>
+<g stroke="#25354a" stroke-width="3" fill="none" marker-end="url(#a)"><path d="M330 509H400"/><path d="M820 509H890"/></g>
+<text x="1240" y="500" font-size="26" fill="#5b6b7c">no unlocks, no save</text><text x="1240" y="532" font-size="26" fill="#5b6b7c">solid = code · dashed = draft</text>
+</g></svg>
