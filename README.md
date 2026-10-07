@@ -7,7 +7,7 @@
 **What exists today (and nothing more is claimed):**
 | Level | Kind | State |
 |---|---|---|
-| Jumpman | 2D platformer | The inherited game, in [`godot/`](godot/): the First Steps level with Clawd, the 18-animation gallery, the design package and the design films' sources. See [docs/walker-jumpman-clawd-README.md](docs/walker-jumpman-clawd-README.md). |
+| Jumpman | 2D platformer | The inherited game, in [`godot/`](godot/): the First Steps level with Clawd, the 18-animation gallery, and the design package. See [docs/walker-jumpman-clawd-README.md](docs/walker-jumpman-clawd-README.md). |
 | Claude in 3D | 3D asset (no level yet) | [`assets/claude-3d/`](assets/claude-3d/): the Claude mascot as a 3D model, rigged with nine bones for the same 18 animations; built in Blender by script, and separately through the Blender MCP. No Godot level uses it yet. |
 
 **Planned (not built):** a 3D level starring the 3D Claude; a mobile level (touch controls, export to a phone); further 2D levels; levels that exercise Blender-made assets and other tools. See [LEVELS.md](LEVELS.md). Each new level, asset and tool gets added here, with the brief that produced it.
