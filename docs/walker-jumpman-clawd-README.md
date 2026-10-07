@@ -1,3 +1,5 @@
+> Note: this file is the original walker-jumpman-clawd README, kept for reference. Its links into `youtube/` (the design films) point to files that stay in [walker-jumpman-clawd](https://github.com/nikbearbrown/walker-jumpman-clawd); this repository does not carry video builds.
+
 # walker-jumpman-clawd — Professor Bear's evolving example
 
 **Iteration 1: Clawd in the existing First Steps level.** The starter remains
